@@ -1,0 +1,1 @@
+This React Native bug manifests when using AsyncStorage to store and retrieve data.  The issue arises when attempting to retrieve data immediately after storing it.  The retrieval often returns null or undefined, even though the data has been successfully written. This is inconsistent and problematic for real-time data updates.
